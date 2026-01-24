@@ -1,5 +1,5 @@
 # integer
-a = 10 # type number;
+a = 10 # type number;  # immutable
 
 print(type(a)) # <class 'int'>
 
