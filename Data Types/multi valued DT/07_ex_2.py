@@ -13,4 +13,7 @@ print(mul)
 division = a / b
 print(division)
 
+reminder = a%b
+print(reminder)
+
 
