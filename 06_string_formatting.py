@@ -43,3 +43,12 @@ print(message)
 message = "My name is {n}, I am {a} years old".format(n=name, a=age)
 print(message)
 # Output: My name is Bob, I am 30 years old
+
+# Method 3 %: not much used
+name = "Charlie"
+age = 35
+
+# Using % operator
+message = "My name is %s, I am %d years old" % (name, age)
+print(message)
+# Output: My name is Charlie, I am 35 years old
