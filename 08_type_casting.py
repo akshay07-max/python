@@ -24,3 +24,13 @@ Example run:
 Enter your age: 25
 <class 'int'>
 Next year you'll be 26
+
+
+Converting to Float
+height = float(input("Enter your height in feet: "))
+print(f"Your height is {height} feet")
+print(type(height))  # <class 'float'>
+Example run:
+Enter your height in feet: 5.8
+Your height is 5.8 feet
+<class 'float'>
