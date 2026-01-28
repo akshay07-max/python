@@ -34,3 +34,14 @@ Example run:
 Enter your height in feet: 5.8
 Your height is 5.8 feet
 <class 'float'>
+
+Converting to String
+# Number to string
+age = 25
+age_str = str(age)
+message = "I am " + age_str + " years old"
+print(message)  # I am 25 years old
+
+# Or use f-string (easier!)
+message = f"I am {age} years old"
+print(message)
