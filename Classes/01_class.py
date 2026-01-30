@@ -7,3 +7,6 @@ class Bank:
 
 
 fBank = Bank()
+fBank.location = "Chennai"
+
+print(f"Bank is located in {fBank.location}")
