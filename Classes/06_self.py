@@ -10,7 +10,7 @@ class Person:
   def greet(self):
     print("Hello, my name is " + self.name)
 
-p1 = Person("Emil", 25)
+p1 = Person("Email", 25)
 p1.greet()
 
 # Note: The self parameter must be the first parameter of any method in the class.
