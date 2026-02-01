@@ -1,0 +1,1 @@
+# Properties  the variables that belongs to the class. they store data  for each object created from the class.
