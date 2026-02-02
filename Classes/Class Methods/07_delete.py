@@ -1,0 +1,1 @@
+# You can delete methods from a class using the del keyword:
