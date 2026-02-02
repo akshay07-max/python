@@ -10,3 +10,5 @@ class Person:
 
 p1 = Person("Akshay", 24)
 print(p1.greet())
+
+# IMP NOTE: All methods must have self as the first parameter.
