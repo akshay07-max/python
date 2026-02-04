@@ -14,6 +14,9 @@ class Student(Person):
         super().__init__(fname, lname)
         # self.graduationyear = 2019
         self.graduationyear = year
+    
+    def welcome(self):
+        print("Welcome", self.fname, self.lname, "to the class of", self.graduationyear)
 
 
 # s1 = Student("Akshay", "Surase")
@@ -25,5 +28,8 @@ print(s1.fullName())
 
 # In the example below, the year 2019 should be a variable, and passed into the Student class when creating student objects. To do so, add another parameter in the __init__() function:
 print(s1.graduationyear)
+
+print(s1.welcome())
+
 
 # By using the super() function, you do not have to use the name of the parent element, it will automatically inherit the methods and properties from its parent.
