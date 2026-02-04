@@ -5,8 +5,15 @@ class Person:
 
     def fullName(self):
         return f"My full name is {self.fname} {self.lname}"
+    
+class Student(Person):
+    pass
 
+x = Student("Mike", "Olsen")
+x.fullName()
 
-p1 = Person("Akshay", "Surase")
+print(x.fullName())
 
-print(p1.fullName())
+# p1 = Person("Akshay", "Surase")
+
+# print(p1.fullName())
