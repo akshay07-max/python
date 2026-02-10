@@ -10,3 +10,13 @@ print(u)
 # this js ugly coding.
 
 # if your class returning a string then used __str__().
+
+class User:
+    def __init__(self, name):
+         self.name=name
+   
+    def __str__(self)
+        return self.name
+
+u = User('Akshay')
+print(u)
