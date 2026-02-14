@@ -4,3 +4,8 @@
 # Add a method get_balance that returns self.__balance
 # Create an object acc = BankAccount(1000)
 # Print the result of acc.get_balance()
+
+class BankAccount:
+    def __init__(self, balance):
+        self.__balance = balance
+        
