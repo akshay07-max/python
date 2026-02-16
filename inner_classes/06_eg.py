@@ -12,3 +12,8 @@ class Outer:
 c1 = Outer("Akshay")
 
 print(c1)
+
+# accessing inner class
+inner = Outer.Inner("Surase")
+
+print(inner.display())
