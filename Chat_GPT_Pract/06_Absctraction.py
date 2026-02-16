@@ -12,3 +12,8 @@ class Vehicle(ABC):
     @abstractmethod
     def start(self):
         pass
+
+# Child must implement:
+class Car(Vehicle):
+    def start(self):
+        print("Car started")
