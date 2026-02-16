@@ -8,3 +8,9 @@ e1 = Employee("Akshay")
 e2 = Employee("Rahul")
 
 print(e1.company)  # Google
+
+
+# | Instance Variable | Class Variable           |
+# | ----------------- | ------------------------ |
+# | Unique per object | Shared by all objects    |
+# | self.variable     | Defined outside **init** |
