@@ -15,3 +15,21 @@
 # "w" - Write - Opens a file for writing, creates the file if it does not exist
 
 # "x" - Create - Creates the specified file, returns an error if the file exists
+
+# In addition you can specify if the file should be handled as binary or text mode
+
+# "t" - Text - Default value. Text mode
+
+# "b" - Binary - Binary mode (e.g. images)
+
+# Syntax:
+
+# To open a file for reading it is enough to specify the name of the file:
+f = open("File Handling/file.txt")
+
+print(f)   # <_io.TextIOWrapper name='File Handling/file.txt' mode='r' encoding='cp1252'>
+
+
+# The code above is the same as:
+f = open("demofile.txt", "rt")
+# Because "r" for read, and "t" for text are the default values, you do not need to specify them.
