@@ -12,3 +12,8 @@ class B(A):
 
     def fun2(self):
         print("Modifying feature_2 of class A by class B")
+
+b1 = B()
+
+b1.fun1()
+b1.fun2()
