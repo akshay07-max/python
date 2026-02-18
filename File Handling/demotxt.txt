@@ -1,1 +1,2 @@
 Hello, this is the file i'm using for testing the write operation of python's file handling.
+This is the text I'm writing in demotxt file usinf a(append), it will append to the existing content.
