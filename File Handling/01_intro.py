@@ -33,3 +33,14 @@ print(f)   # <_io.TextIOWrapper name='File Handling/file.txt' mode='r' encoding=
 # The code above is the same as:
 f = open("demofile.txt", "rt")
 # Because "r" for read, and "t" for text are the default values, you do not need to specify them.
+
+# Note: Make sure the file exists, or else you will get an error.
+
+
+# If the file is located in a different location, you will have to specify the file path, like this:
+
+# Example
+# Open a file on a different location:
+
+f = open("D:\\myfiles\welcome.txt")
+print(f.read())
