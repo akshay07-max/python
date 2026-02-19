@@ -5,3 +5,8 @@ with open(filename, "a") as file:
     file.write("\n" + data)
 
 print("Data appended successfully!")
+
+
+# "a" mode adds content at the end.
+
+# Does NOT overwrite existing data.
