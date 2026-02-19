@@ -7,3 +7,10 @@ with open(filename, "w") as file:
     file.write(data)
 
 print("Data written successfully!")
+
+
+# "w" mode creates file if not exists.
+
+# Overwrites existing content.
+
+# with automatically closes file.
