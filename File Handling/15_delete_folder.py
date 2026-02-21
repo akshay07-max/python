@@ -6,3 +6,5 @@
 
 import os
 os.rmdir("myfolder")
+
+# Note: You can only remove empty folders.
