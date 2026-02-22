@@ -9,3 +9,7 @@ import numpy as np
 
 arr = np.array([22,22,33,44,55])
 print(arr)
+
+# check numpy version
+
+print(np.__version__)
