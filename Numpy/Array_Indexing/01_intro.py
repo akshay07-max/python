@@ -11,4 +11,8 @@ print(arr[0])
 print(arr[1])
 print(arr[3])
 print(arr[6])
-print(arr[7]) # IndexError: index 7 is out of bounds for axis 0 with size 7
+# print(arr[7]) # IndexError: index 7 is out of bounds for axis 0 with size 7
+
+
+# Get third and fourth elements from the following array and add them.
+print(arr[6] + arr[5])
