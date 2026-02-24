@@ -13,3 +13,18 @@ ELSE:
     Don't take umbrella
 In programming:
 Control flow determines which code runs based on conditions.
+
+
+Part 2: Sequential vs Conditional Execution
+Sequential execution (what you've done so far):
+print("Line 1")
+print("Line 2")
+print("Line 3")
+Every line runs, one after another. Boring! 😴
+Conditional execution (what we'll learn now):
+
+age = 20
+if age >= 18:
+    print("you can vote!")
+else:
+    print("you cannot vote!")
