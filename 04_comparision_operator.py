@@ -56,3 +56,34 @@ if score >= 60:
 # Less than or equal
 if score <= 100:
     print("Valid score")  # This runs
+
+
+
+Part 7: Comparing Different Data Types
+Strings:
+name = "Alice"
+
+if name == "Alice":
+    print("Hello Alice!")  # This runs
+
+# String comparison is case-sensitive!
+if name == "alice":
+    print("This won't run")  # Different case
+Booleans:
+is_raining = True
+
+if is_raining:  # No need for == True
+    print("Take umbrella")
+
+# Same as:
+if is_raining == True:
+    print("Take umbrella")
+Mixed types (be careful!):
+# Comparing int and float works
+if 5 == 5.0:
+    print("Equal")  # This runs
+
+# Comparing number and string doesn't work as expected
+x = 5
+if x == "5":
+    print("Equal")  # This WON'T run (different types)
