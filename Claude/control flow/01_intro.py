@@ -11,3 +11,16 @@ if age >= 18:
 
 else:
     print("You can not drive")
+
+
+# if condition syntax:
+
+# if condition:
+    # code to be execute id the condition is true.
+    # statement 1
+    # statement 2
+
+# if keyword
+# Condition (must evaluate to True or False)
+# Colon :
+# Indentation (4 spaces or 1 tab) - VERY IMPORTANT!
