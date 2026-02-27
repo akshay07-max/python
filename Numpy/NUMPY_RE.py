@@ -30,4 +30,3 @@ print(np.ndim(tw_d))
 
 print(tw_d[1, 0])
 print(tw_d[0, 3])
-
