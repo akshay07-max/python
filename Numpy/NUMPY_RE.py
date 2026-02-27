@@ -21,6 +21,13 @@ zr_d = np.array(89)
 # 1-D 
 on_d = np.array([12,13, 14])
 # print(on_d)
-print(np.ndim(on_d))
+# print(np.ndim(on_d))
 
 # 2-D 
+tw_d = np.array([[12, 23, 43, 12, 23], [11, 23, 44, 55, 12]])
+# print(tw_d)
+print(np.ndim(tw_d))
+
+print(tw_d[1, 0])
+print(tw_d[0, 3])
+
