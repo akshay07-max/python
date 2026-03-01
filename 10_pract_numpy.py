@@ -1,7 +1,8 @@
 Level 4: Statistical Operations
 1️⃣1️⃣ Find mean, median, std deviation
 
-# find mean, median, mode
+# find mean, median, standard deviation
+
 arr = np.array([1, 2, 3, 4, 5])
 
 print("Mean:", np.mean(arr))
