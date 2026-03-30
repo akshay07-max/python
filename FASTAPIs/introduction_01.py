@@ -15,3 +15,13 @@
 
 # step 3:
 # First FastAPI App:
+
+from fastapi import FastAPI
+
+# creating FastAPI app instance
+app = FastAPI()
+
+# simple get API.
+@app.get("/")
+def read_root():
+    return{"hello, I'm FastAPI"}
