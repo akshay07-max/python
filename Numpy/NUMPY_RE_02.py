@@ -43,4 +43,7 @@ print(tw_arr.ndim) # 2
 
 # 3-D arrays
 thr_arr = np.array([[[12, 22, 11], [88, 89, 90]], [[111, 222, 333], [444, 555, 666]]])
-print(thr_arr)
+print(thr_arr) # [[[12, 22, 11], [88, 89, 90]], [[111, 222, 333], [444, 555, 666]]]
+
+# check dimension
+print(thr_arr.ndim) # 3
