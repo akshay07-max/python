@@ -44,4 +44,5 @@ arr_2_d = np.array([[122,323, 443, 554], [233, 122, 443, 222]])
 # Get elements from the 2nd row, from column index 2 to the end
 print(arr_2_d[1, 2:]) # [443 222]
 
+# From both elements, slice index 1 to index 3 (not included), this will return a 2-D array:
 print(arr_2_d[0:2, 1:3]) #[[323 443] [122 443]]
