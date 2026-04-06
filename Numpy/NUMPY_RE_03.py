@@ -37,3 +37,9 @@ print(arr[:4]) # [12 23 34 45]
 
 # get the array elements from index 1 to end
 print(arr[1:]) # [23 34 45 56 67 78]
+
+# 2-D array slicing
+arr_2_d = np.array([[122,323, 443, 554], [233, 122, 443, 222]])
+
+# Get elements from the 2nd row, from column index 2 to the end
+print(arr_2_d[1, 2:]) # [443 222]
