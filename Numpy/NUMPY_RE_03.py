@@ -35,3 +35,5 @@ print(arr[1:4]) # [23 34 45]
 print(arr[:4]) # [12 23 34 45]
 
 
+# get the array elements from index 1 to end
+print(arr[1:]) # [23 34 45 56 67 78]
