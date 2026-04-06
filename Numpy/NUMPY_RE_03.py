@@ -31,3 +31,7 @@ arr = np.array([12, 23, 34, 45, 56, 67, 78])
 print(arr[1:4]) # [23 34 45]
 # Note: The result includes the start index, but excludes the end index.
 
+# get the array elements from start to index 4
+print(arr[:4]) # [12 23 34 45]
+
+
