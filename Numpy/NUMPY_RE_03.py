@@ -1,5 +1,5 @@
 # Numpy cheat sheet-2
-# Indexing In Numpy
+# Accessing Index In Numpy
 
 import numpy as np
 
@@ -16,4 +16,13 @@ print(tw_d_array[1, 2])  # 21
 thr_d_array = np.array([[[12, 33, 44, 55, 77], [45, 65, 76, 87, 21]], 
                         [[56, 877, 999, 888, 767], [885, 643, 988, 887, 998]]])
 print(thr_d_array[1, 1, 0]) # 885
+
+
+# Array Slicing
+# Slicing in python means taking elements from one given index to another given index.
+# We pass slice instead of index like this: [start:end].
+# We can also define the step, like this: [start:end:step].
+# If we don't pass start its considered 0
+# If we don't pass end its considered length of array in that dimension
+# If we don't pass step its considered 1
 

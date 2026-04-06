@@ -9,3 +9,5 @@ arr = np.array([[12, 223,33], [21, 32, 42]])
 getInd = arr[1, 0]
 
 print(getInd)
+
+
