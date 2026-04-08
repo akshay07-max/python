@@ -8,3 +8,9 @@ arr = np.array([12,3, 44, 55], dtype="S")
 print(arr.dtype)
 
 # For i, u, f, S and U we can define size as well.
+
+# Create an array with data type 4 bytes integer:
+arr_2 = np.array([1, 2, 3, 4], dtype='i4')
+
+print(arr_2)
+print(arr_2.dtype)
