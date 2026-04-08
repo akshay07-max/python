@@ -13,3 +13,16 @@ else:
     print("Array hi hai!!")
 
 
+# creating array of strings
+strArr = np.array(["Apple", "Jamun", "Orange", "Papaya"])
+
+print(strArr.dtype)
+
+
+print(arr.dtype)
+
+if strArr.dtype == "int64":
+    print("Array integer hai!!")
+
+else:
+    print("Array kuch or hi hai!!")
