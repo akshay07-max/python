@@ -8,3 +8,11 @@ import numpy as np
 
 # The data type can be specified using a string, like 'f' for float, 'i' for integer etc. or you can use the data type directly like float for float and int for integer.
 
+arr = np.array([1.1, 2.1, 3.1])
+
+newarr = arr.astype('i') # int32
+# newarr = arr.astype('i4') # int32
+# newarr = arr.astype('i8') # int64
+
+print(newarr)
+print(newarr.dtype)
