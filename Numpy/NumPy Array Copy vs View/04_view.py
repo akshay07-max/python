@@ -13,3 +13,6 @@ print(arr) # the original array get changed: ['Onion' 'Banana' 'Orange' 'Grapes'
 # conclusion: When you change anything with view the original array get affected unlike copy.
 
 # make changes in original array.
+arr[2] = "Tomato"
+print(arr)
+print(arr_view)
