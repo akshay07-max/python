@@ -18,3 +18,5 @@ arr[0] = 90
 
 print(arr)
 print(x)
+
+# The copy SHOULD NOT be affected by the changes made to the original array.
