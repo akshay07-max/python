@@ -13,3 +13,5 @@ tw_d = np.array([[122, 333, 444, 555], [555, 777, 888, 999]])
 
 print(tw_d.shape) # (2, 4)
 
+# The example above returns (2, 4), which means that the array has 2 dimensions, where the first dimension has 2 elements and the second has 4.
+
