@@ -25,5 +25,10 @@ three_d = np.array([[[12, 43, 12, 34], [123, 432, 421, 432]], [[1234, 2342, 4212
 
 # iterating using nditer
 
-for p in np.nditer(one_d):
+# 1-D
+# for p in np.nditer(one_d):
+#     print(p)
+
+# 2-D
+for p in np.nditer(two_d):
     print(p)
