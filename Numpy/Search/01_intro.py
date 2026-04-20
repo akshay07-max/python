@@ -11,3 +11,8 @@ duplicates = np.where(arr == 122)
 
 print(duplicates) # (array([0, 3, 5, 7]),)
 # Which means that the value 122 is present at index 0, 3, 5 and 7.
+
+for i in duplicates:
+    for x in i:
+        print(f"arr of {x} has {arr[x]}")
+        # print(x)
