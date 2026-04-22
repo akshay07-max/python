@@ -15,4 +15,24 @@ elif marks >= 50 and marks < 75:
 else:
     print("Kya gunda banega re tuuuu....")
 
+# marks >= 90 ? No
+# marks >= 75 ? Yes
+# Print B Grade
+
+
+# Important Rule
+
+# Python checks top to bottom.
+
+# Once one condition becomes True → rest skipped.
+
+x = 95
+
+if x > 50:
+    print("Pass")
+elif x > 90:
+    print("Excellent")
+
+# Pass will be he output
+
 
