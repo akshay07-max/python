@@ -1,0 +1,12 @@
+1. if statement
+2. if-else
+3. if-elif-else
+4. Nested if
+5. Logical operators
+6. Comparison operators
+7. Truthy / Falsy values
+8. Ternary operator
+10. match-case (Python 3.10+)
+11. Best practices
+12. Real-world examples
+13. Practice questions
