@@ -11,3 +11,11 @@ if age >= 18:
         print("Salary is too less, Your in lala company boi")
 else:
     print("You are a chid, enjoy you life, until some job or company ruin it.")
+
+
+#  Age >=18 ?
+#    Yes
+#     |
+# Salary >=30000 ?
+#   Yes -> Approved
+#   No  -> Low salary
