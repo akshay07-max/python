@@ -19,3 +19,10 @@ day = "Sunday"
 
 if day == "Sunday" or day == "Saturday":
     print("Holiday")
+
+# not Example
+
+logged_in = False
+
+if not logged_in:
+    print("Please login")
