@@ -11,3 +11,4 @@ match day:
         print("Wednesday")
     case _:
         print("Invalid")
+# case _ means default.
