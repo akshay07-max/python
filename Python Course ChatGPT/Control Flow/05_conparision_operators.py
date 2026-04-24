@@ -12,3 +12,10 @@ elif(a <= b):
 
 else:
     print("Something is wrong...")
+
+
+a = 10
+b = 20
+
+print(a < b)   # True
+print(a == b)  # False
