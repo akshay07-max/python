@@ -5,3 +5,9 @@ for i in x:
          print("negative Number")
     else:
         print("Positive Number")
+
+if any(n<0 for n in x):
+    print("negative number")
+
+else:
+    print("Positive Number")
