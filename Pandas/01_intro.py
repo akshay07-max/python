@@ -15,3 +15,7 @@
 # Where is the Pandas Codebase?
 # The source code for Pandas is located at this github repository https://github.com/pandas-dev/pandas
 
+# Installation:
+# If you already have pip install on the system then you can simply do:
+# pip install pandas
+    
