@@ -1,0 +1,10 @@
+# match case
+
+x = "Sunday"
+
+match x:
+     case "Sunday":
+          return "Its Holiday"
+     case "Monday":
+          return "Its Bad Day"
+
