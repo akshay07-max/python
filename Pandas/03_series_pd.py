@@ -13,3 +13,10 @@ print(get_series)
 # The label are basically a index of the data (If nothing is specified). The index starts form 0, 1 etc.
 # The label can be used to access a specified element.
 
+print(get_series[0])
+
+# creating an custom Labels.
+# By using index argument, you can create your custom Label.
+label_data = pd.Series(my_data, index=["a", "b", "c"])
+
+print(label_data)
