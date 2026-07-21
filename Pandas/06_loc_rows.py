@@ -16,3 +16,5 @@ get_frame = pd.DataFrame(data)
 # Note: This example returns a Pandas Series.
 
 print(get_frame.loc[[0,1,2]])
+
+# Note: When using [], the result is a Pandas DataFrame.
